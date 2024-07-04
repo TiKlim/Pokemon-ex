@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/pink"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="241dp"
+        android:alpha="0.1"
+        android:src="@drawable/pokeball__1_"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:layout_width="190sp"
+        android:layout_height="50sp"
+        android:text="@string/mew"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="60sp"
+        android:text="@string/number8"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageButton
+        android:id="@+id/main"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/vector__3_"
+        android:background="@null"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:contentDescription="Enter How Much Cookies You Want"/>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="53dp"
+        android:layout_height="57dp"
+        android:background="@null"
+        android:src="@drawable/vector__6_"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="182dp"
+        android:contentDescription="Enter How Much Cookies You Want"/>
+
+    <ImageButton
+        android:id="@+id/continue_page"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        android:background="@null"
+        android:src="@drawable/vector__5_"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="187dp"
+        android:contentDescription="Enter How Much Cookies You Want"/>
+
+    <FrameLayout
+        android:id="@+id/view"
+        android:layout_width="400sp"
+        android:layout_height="480sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/superellipse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="25sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginLeft="175sp"
+            android:background="@drawable/psychic"
+            android:text="@string/psychic"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="355dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <TextView
+            android:layout_width="90sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="160sp"
+            android:layout_marginTop="110sp"
+            android:text="@string/about"
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="355dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <LinearLayout
+            android:layout_width="320sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="140sp"
+            android:layout_marginLeft="45sp">
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="10sp"
+                android:src="@drawable/vector__1_"/>
+
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="20sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/kg8"
+                android:layout_marginLeft="10sp"/>
+
+            <ImageView
+                android:layout_width="2sp"
+                android:layout_height="80sp"
+                android:layout_marginTop="10sp"
+                android:src="@drawable/steel"
+                android:layout_marginLeft="15sp"/>
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="20sp"
+                android:src="@drawable/vector__2_"/>
+
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="20sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/m8"
+                android:layout_marginLeft="10sp"/>
+
+            <ImageView
+                android:layout_width="2sp"
+                android:layout_height="80sp"
+                android:layout_marginTop="10sp"
+                android:src="@drawable/steel"
+                android:layout_marginLeft="15sp"/>
+
+            <TextView
+                android:layout_width="80sp"
+                android:layout_height="40sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/des8"
+                android:layout_marginLeft="19sp"/>
+
+            <TextView
+                android:layout_width="75sp"
+                android:layout_height="20sp"
+                android:layout_marginLeft="-305sp"
+                android:layout_marginTop="65sp"
+                android:text="@string/weight"
+                android:textAlignment="center"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="75sp"
+                android:layout_height="20sp"
+                android:layout_marginLeft="38sp"
+                android:layout_marginTop="65sp"
+                android:text="@string/height"
+                android:textAlignment="center"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="75sp"
+                android:layout_height="20sp"
+                android:layout_marginLeft="38sp"
+                android:layout_marginTop="65sp"
+                android:text="@string/moves"
+                android:textAlignment="center"
+                android:textColor="@color/gray"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="350sp"
+            android:layout_height="230sp"
+            android:layout_marginTop="240sp"
+            android:layout_marginLeft="28sp"
+            android:src="@drawable/bottom8"/>
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="253dp"
+        android:layout_height="271dp"
+        android:src="@drawable/mew"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
